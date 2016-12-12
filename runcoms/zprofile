@@ -72,10 +72,3 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
-
-#
-# LS colors
-#
-
-export CLICOLOR=1
-export LSCOLORS=gxfxcxdxcxegedabagacad

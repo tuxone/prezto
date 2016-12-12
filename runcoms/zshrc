@@ -12,9 +12,6 @@ fi
 
 # Customize to your needs...
 
-# Disable autocorrect guesses.
-unsetopt CORRECT
-
 PROMPT="%F{magenta}%n%f@%F{yellow}%m%f %F{green}%~%f ${git_info:+${(e)git_info[prompt]}}$ "
 
 # Autocomplete for '..'
@@ -25,5 +22,3 @@ zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(
 
 # Aliases
 alias zshconfig="$EDITOR ~/.zshrc"
-alias ll="ls -lh"
-alias la="ls -A"
