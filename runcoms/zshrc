@@ -20,16 +20,8 @@ PROMPT="%F{magenta}%n%f@%F{yellow}%m%f %F{green}%~%f ${git_info:+${(e)git_info[p
 # Autocomplete for '..'
 zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(..)'
 
-# LS colors
-export CLICOLOR=1
-export LSCOLORS=gxfxcxdxcxegedabagacad
-
 # Language environment
-export LANG=en_US.UTF-8
 #export LC_ALL=C
-
-# Default editor
-export EDITOR='vim'
 
 # Aliases
 alias zshconfig="$EDITOR ~/.zshrc"
