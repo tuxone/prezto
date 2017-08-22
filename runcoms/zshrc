@@ -22,3 +22,5 @@ zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(
 
 # Aliases
 alias zshconfig="$EDITOR ~/.zshrc"
+
+source ~/.immorc 
